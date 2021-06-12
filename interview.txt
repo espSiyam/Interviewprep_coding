@@ -1,0 +1,3 @@
+Thread and multiprocess
+python specific programming concepts such as 
+list comprehension, generator, and decorator.
