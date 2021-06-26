@@ -17,4 +17,8 @@ int main()
     cout << "After: "<<endl;
     cout << p1.x<<endl;
     cout << p1.y<<endl;
+    cout << "Using carly brackate: "<<endl;
+    struct Point p2 = {100,200};
+    cout << p2.x<<endl;
+    cout << p2.y<<endl;
 }
