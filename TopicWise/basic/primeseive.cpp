@@ -10,7 +10,10 @@ void prime_seive(int *p)
     for(ll i=3;i<=100000;i+=2){
         if(p[i]==1){
             for (ll j=i*i ; j<=100000; j+=i)
+            {
                 p[j]=0;
+            }
+
         }
     }
     p[0]=p[1]=0;
